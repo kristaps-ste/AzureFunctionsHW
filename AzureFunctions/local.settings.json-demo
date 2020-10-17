@@ -1,0 +1,15 @@
+{
+  //demo config file
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ScheduledTriggerInterval": "0 */1 * * * *",
+    "ConnectionString": "", //azure connection string here
+    "BlobContainerName": "testblob",
+    "TableName": "ScheduledRequestTable",
+    "ApiUrl": "https://api.publicapis.org/",
+    "RequestDateFormat": "yyyy/MM/dd/HH:mm"
+  }
+}
+
